@@ -57,6 +57,21 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - asset/img/
+  fonts:
+    # 폰트의 이름
+    - family: parisienne
+      fonts:
+        - asset: asset/font/Parisienne-Regular.ttf
+    - family: sunflower
+      fonts:
+        - asset: asset/font/Sunflower-Light.ttf
+        - asset: asset/font/Sunflower-Medium.ttf
+          #100 얇음 ~ 900 두꺼움
+          weight: 500
+        - asset: asset/font/Sunflower-Bold.ttf
+          weight: 700
 
   # To add assets to your application, add an assets section, like this:
   # assets:
